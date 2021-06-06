@@ -1,0 +1,32 @@
+{
+    "name": "migdrp-dark",
+    "displayName": "Migdrp Dark",
+    "description": "Migdrp dark theme",
+    "version": "0.0.1",
+    "publisher": "migdrp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/migdrp/migdrp-dark"
+    },
+    "keywords": [
+        "theme",
+        "migdrp",
+        "migdrp dark",
+        "migdrp theme"
+    ],
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Migdrp Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Migdrp Dark-color-theme.json"
+            }
+        ]
+    }
+}

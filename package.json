@@ -4,7 +4,7 @@
     "description": "Migdrp dark theme",
     "version": "0.0.1",
     "publisher": "migdrp",
-    "icon": "./migdrp-logo_square.png",
+    "icon": "migdrp-logo_square.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/migdrp/migdrp-dark"

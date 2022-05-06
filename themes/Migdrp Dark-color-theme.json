@@ -76,6 +76,14 @@
 		"editor.stackFrameHighlightBackground": "#66ae028e",
 		"editor.symbolHighlightBackground": "#66ae028e",
 
+		"editorBracketHighlight.foreground1": "#b4ee02",
+		"editorBracketHighlight.foreground2": "#80c202",
+		"editorBracketHighlight.foreground3": "#66ae02",
+		"editorBracketHighlight.foreground4": "#b4ee02",
+		"editorBracketHighlight.foreground5": "#80c202",
+		"editorBracketHighlight.foreground6": "#66ae02",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#b4ee02",
+
 
 		"menu.background": "#2b2a2a",
 		"menu.border": "#000000",
@@ -347,7 +355,8 @@
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block",
+				"variable.other"
 			],
 			"settings": {
 				"foreground": "#f0f0f0"
@@ -969,7 +978,8 @@
 			],
 			"settings": {
 				"foreground": "#b4ee02",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+
 			}
 		},
 		{
@@ -1074,7 +1084,7 @@
 			}
 		},
 		{
-			"name": "Python type ",
+			"name": "Python type",
 			"scope": [
 				"storage.type.function.python"
 			],
@@ -1083,7 +1093,7 @@
 			}
 		},
 		{
-			"name": "Python entoty ",
+			"name": "Python entity",
 			"scope": [
 				"entity.name.function.python"
 			],
@@ -1092,7 +1102,7 @@
 			}
 		},
 		{
-			"name": "Python function call arguments ",
+			"name": "Python function call arguments",
 			"scope": [
 				"meta.function-call.arguments.python"
 			],
@@ -1101,7 +1111,7 @@
 			}
 		},
 		{
-			"name": "Python numbers and boolean ",
+			"name": "Python numbers and boolean",
 			"scope": [
 				"constant.numeric.dec.python",
 			],

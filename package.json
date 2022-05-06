@@ -13,7 +13,10 @@
         "theme",
         "migdrp",
         "migdrp dark",
-        "migdrp theme"
+        "migdrp theme",
+        "theme green",
+        "green theme",
+        "mig"
     ],
     "engines": {
         "vscode": "^1.56.0"
